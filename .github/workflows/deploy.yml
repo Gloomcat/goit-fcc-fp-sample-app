@@ -49,4 +49,4 @@ jobs:
         with:
           service: ${{ secrets.AWS_RESOURCE_PREFIX }}-fg-task-service-yocngrq8
           cluster: ${{ secrets.AWS_RESOURCE_PREFIX }}-fg-cluster
-          task-definition: ${{ steps.task-def.outputs.task-definition }}
+          task-definition: taskdef.json
